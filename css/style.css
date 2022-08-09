@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Inter';
+    src: url();
+}
+
+.p {
+    color: #3A404E;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #3A404E;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button {
+    background-color: #8E2424;
+    color: white;
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+p {
+    color: #3A404E;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #3A404E;
+}
+
+#menu {
+    display: flex;
+    color: #3A404E;
+    padding-left: 0px;
+}
+
+#menu li {
+    padding: 32px;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    padding: 48px;
+}
+
+#sobre {
+    margin: 0px auto;
+    width: 791;
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+}
+
+.titulo-sobre {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E2424;
+    width: 78px;
+    height: 24px;
+}
+
+#sobre h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.texto-sobre {
+    width: 691px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+    text-align: center;
+}
