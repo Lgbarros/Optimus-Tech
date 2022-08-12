@@ -1,13 +1,13 @@
-@font-face {
-    font-family: 'Inter';
-    src: url();
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
 }
 
-.p {
-    color: #3A404E;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0;
 }
 
 a {
@@ -16,6 +16,72 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+/* HEADER */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-img-text {
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo-img {
+    padding-right: 10px;
+}
+
+.logo p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#nav {
+    margin-right: 10%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav a:hover {
+    color: #8e2424;
+    font-weight: 600;
+}
+
+nav ul li {
+    display: flex;
+    padding: 0 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login-entrar {
+    padding-right: 15px;
 }
 
 button {
@@ -30,93 +96,77 @@ button {
     font-weight: 500;
 }
 
-p {
-    color: #3A404E;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-}
+/* Banner */
 
-.header {
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: center;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 32px;
-}
-
-.logo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    text-decoration: none;
-    color: #3A404E;
-}
-
-#menu {
-    display: flex;
-    color: #3A404E;
-    padding-left: 0px;
-}
-
-#menu li {
-    padding: 32px;
-}
-
-#login {
-    display: flex;
-    align-items: center;
-    padding: 48px;
-}
-
-#sobre {
-    margin: 0px auto;
-    width: 791;
+.container-about {
     height: 407px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 96px 0px;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
 }
 
-.titulo-sobre {
-    font-style: normal;
+.container-about .title-about {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #8E2424;
-    width: 78px;
-    height: 24px;
 }
 
-#sobre h1 {
-    font-style: normal;
+.container-about h1 {
     font-weight: 600;
     font-size: 48px;
     line-height: 60px;
-    letter-spacing: -0.02em;
     color: #101828;
 }
 
-.texto-sobre {
-    width: 691px;
-    height: 60px;
+.container-about p {
+    width: 791px;
+    margin: 0 auto;
+    text-align: center;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: #667085;
-    text-align: center;
+}
+
+/* METRICS  */
+
+#metrics {
+    padding: 0px 0px 96px;
+    gap: 64px;
+    height: 288px;
+}
+
+.container-metrics {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 90%;
+    margin: 0 auto;
+    height: 192px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.container-metrics h2 {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.column {
+    width: 280px;
+    height: 168;
+    gap: 12px;
+}
+
+.text-column {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    line-height: 28px;
 }
