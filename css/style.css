@@ -22,6 +22,17 @@ a:hover {
     color: #8e2424;
 }
 
+img {
+    -webkit-transition: .5s all ease-in;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
@@ -262,6 +273,12 @@ button:hover {
     padding: 24px 24px 28px;
     margin: 20px;
     margin-left: 300px;
+    -webkit-transition: .5s all ease-in;
+}
+
+.container-vacancies .items:hover {
+    box-shadow: 0px 0px 15px 0px #888888;
+    transition: 0.4s;
 }
 
 .container-vacancies h4 {
