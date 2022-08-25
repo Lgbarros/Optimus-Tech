@@ -18,6 +18,10 @@ a {
     line-height: 24px;
 }
 
+a:hover {
+    color: #8e2424;
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
@@ -96,6 +100,11 @@ button {
     font-weight: 500;
 }
 
+button:hover {
+    background-color: #FFF;
+    color: #8E2424;
+}
+
 /* Banner */
 
 .container-about {
@@ -143,7 +152,6 @@ button {
 #metrics {
     padding: 0px 0px 96px;
     gap: 64px;
-    height: 288px;
 }
 
 .container-metrics {
@@ -185,7 +193,6 @@ button {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 96px 0px;
     gap: 64px;
 }
 
@@ -224,6 +231,51 @@ button {
     padding-top: 5%;
 }
 
+.container-vacancies {
+    width: 1280px;
+    height: 940px; 
+}
+
+.container-vacancies h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+.container-vacancies p {
+    text-align: left;
+}
+
+.container-vacancies .items {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+    align-items: baseline;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 600px;
+    padding: 24px 24px 28px;
+    margin: 20px;
+    margin-left: 300px;
+}
+
+.container-vacancies h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+.info-area {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
 
 /* DEPOSITIONS */
 
@@ -267,7 +319,6 @@ footer {
     align-items: center;
     padding: 96px 0px;
     width: auto;
-    height: 430px;
     background: #F9FAFB;
     gap: 40px;
 }
@@ -282,6 +333,7 @@ footer p {
     gap: 40px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 96px;
 }
 
 .container-email {
